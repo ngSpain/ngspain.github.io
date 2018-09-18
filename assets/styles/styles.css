@@ -4,7 +4,7 @@ body {
   
 section {
     font-family: 'Futura';
-    color: cornsilk;
+    color: rgba(255, 255, 255, 0.88);
 }
 
 .head-container {
@@ -35,6 +35,7 @@ section {
     display: block;
     text-align: center;
     font-size: 45px;
+    color: #FD2D00;
 }
 
 .subtitle {
