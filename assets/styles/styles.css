@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+  }
+  
+section {
+    font-family: 'Futura';
+    color: cornsilk;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    margin-top: 30px;
+}
+
+.heading > .description {
+    text-transform: uppercase;
+    font-size: 31px;
+    line-height: 1.7;
+    letter-spacing: 0.5em;
+}
+
+.title {
+    margin-top: 1%;
+    display: block;
+    text-align: center;
+    font-size: 45px;
+}
+
+.subtitle {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.bg1 {
+    height: 100%;
+    background-image: url(../images/photo-madrid.jpeg);
+}
+
+.logo-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 41%;
+}
+
+.logo-container > .logo {
+    width: 200px;
+}
+
+@media screen and (max-device-width : 1024px)
+{
+    .logo-container > .logo {
+        width: 300px;
+        top: 20%;
+    }
+
+    .title {
+        font-size: 55px;
+        margin-bottom: 3%;
+        }
+
+        .subtitle {
+        font-size: 45px;
+        }
+
+    .head-container {
+        margin-top: 20%;
+    }
+
+    .heading .description {
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-device-width : 768px)
+{
+    .title {
+        font-size: 60px;
+        margin-bottom: 3%;
+    }
+
+    .subtitle {
+        font-size: 45px;
+    }
+    .logo-container {
+        height: 35%;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-device-width : 414px)
+{
+    .title {
+        font-size: 60px;
+        margin-bottom: 4%;     
+    }
+
+    .subtitle {
+        font-size: 45px;
+    }
+
+    .logo-container {
+        height: 35%;
+    }
+
+    .logo-container > .logo {
+        width: 300px;
+    }
+
+    .head-container {
+        margin-top: 30%;
+    }
+
+    .heading .description {
+        font-size: 40px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .logo-container {
+        margin-bottom: 5%;
+        height: 35%;
+    }
+
+    .logo-container > .logo {
+        width: 400px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+
+    .subtitle {
+        font-size: 50px;
+    }
+
+    .head-container {
+        margin-top: 40%;
+    }
+
+    .heading .description {
+        font-size: 50px;
+    }
+}

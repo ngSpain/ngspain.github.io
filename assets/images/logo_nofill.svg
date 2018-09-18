@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="604px" height="648px" viewBox="0 0 604 648" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFBD00" offset="0%"></stop>
+            <stop stop-color="#FC0C00" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="291.071429 0 0 103.771392 44.3954273 488.538209 291.071429 625.128866 537.74743 488.538209 582.142857 103.771392"></polygon>
+        <linearGradient x1="50%" y1="0.553197254%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FC0200" offset="0%"></stop>
+            <stop stop-color="#FFBD00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-768.000000, -137.000000)">
+            <g id="Group" transform="translate(779.000000, 148.000000)">
+                <g id="Group-2">
+                    <g id="angular">
+                        <g id="Oval-3-+-Oval-3-+-Oval-3-+-Oval-3-+-Oval-3-Mask">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" stroke="url(#linearGradient-1)" stroke-width="20" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                    <path d="M293.170642,67.871134 L110.714286,475.097938 L178.743546,475.097938 L215.422916,383.97899 L370.29137,383.97899 L406.97074,475.097938 L475,475.097938 L293.170642,67.871134 Z M346.465454,327.809776 L239.87583,327.809776 L293.170642,200.180839 L346.465454,327.809776 Z" id="Shape" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
