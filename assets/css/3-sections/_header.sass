@@ -1,0 +1,66 @@
+header
+  @extend %background-image
+  background:
+    position: 30px 20px, 50% 50%
+    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+  padding-bottom: 50px
+
+
+  .logo
+    +size(100px)
+    float: left
+    margin: 10px 0 0 30px
+
+    path
+      fill: rgba(0,0,0,0.4)
+
+  nav
+    float: right
+    padding: 30px 60px 0 0
+
+    a
+      display: inline-block
+      margin-left: 20px
+
+      color: white
+      @extend %small-bold
+
+      &:hover
+        color: #FFBD00
+  
+  .header-container
+    margin: 0 auto
+    width: 70%
+    padding-top: 5%
+    .header-body
+      text-align: left
+      width: 60%
+      color: white
+      .date
+        font:
+          size: 18px
+      .header-title
+        font:
+          size: 65px
+          weight: 700
+        color: white
+        margin-bottom: 20px
+        clear: both
+
+      .kicker
+        @extend %small-bold
+        width: 90%
+        line-height: 1.8
+
+@media (max-width: 640px)
+  header
+    background:
+      position: 50% 20px, 50% 50%
+
+    nav
+      float: none
+      text-align: center
+      padding-top: 90px
+
+    h1
+      padding-top: 0px

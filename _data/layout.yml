@@ -1,0 +1,18 @@
+# Layout settings
+
+animation: "fadeIn"
+
+# Images
+
+logo: "logo_nofill__with_ngSpain.svg"
+background-url: "photo-madrid-less.jpeg"
+avatar: "travitar.jpg"
+
+# Colors
+
+accent: "#030232"
+
+textColor: "#666"
+headlineColor: "#333"
+bgcolor: '#030232'
+documentBackgroundColor: "#fff"

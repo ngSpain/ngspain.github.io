@@ -1,0 +1,53 @@
+<section class="section-speakers">
+
+    <h3 id="speakers"> < Our speakers /> </h3>
+    <h2>Take a look at our amazing speakers!</h2>
+    {% for speaker in site.data.settings.speakers %}
+      <input type="radio" name="trigger" class="trigger" id="{{ speaker.folder }}" />
+    {% endfor %}
+  
+    <input type="radio" name="trigger" id="return" class="return" />
+  
+    <div class="work-belt">
+  
+      <div class="thumb-wrap">
+        <div class="thumb-container">
+        {% for speaker in site.data.settings.speakers %}
+        <label for="{{ speaker.folder }}">
+          <div class="thumb-unit" data-url="{{ site.github.url }}/speakers/{{ speaker.folder }}/">
+            <img src="{{ site.github.url }}/assets/img/speakers/{{speaker.folder}}/thumb.jpg" alt="{{ speaker.name }}" />
+          </div>
+          <div class="thumb-overlay">
+            <strong>{{ speaker.name }}</strong>
+            <div>{{ speaker.description }}</div>
+          </div>
+        </label>
+        {% endfor %}
+      </div>
+      </div>
+  
+      <div class="work-wrap">
+        <div class="work-container">
+        <label for="return">
+          <div class="work-return">{% include icons/icon-back.html %}</div>
+        </label>
+        <h4 class="spaker-title"></h4>
+        <div class="spaker-load"></div>
+  
+        <noscript>
+          {% for speaker in site.data.settings.speakers %}
+            <div class="noscript" id="content-{{ speaker.folder }}">
+              <h4 class="spaker-title">{{ speaker.name }}</h4>
+              <div class="noscript-load">
+                {% include {{speaker.file}} %}
+              </div>
+            </div>
+          {% endfor %}
+        </noscript>
+  
+      </div>
+      </div>
+  
+    </div>
+  </section>
+  

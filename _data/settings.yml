@@ -1,0 +1,125 @@
+#-------------------------------
+# General Site Settings
+
+title: Spain's Angular Conference
+description: THE Angular conference in Spain which is 100% community driven.
+description_goal: Our goal is to have top quality content available for all, and with the help of the community, it is possible.
+email: team@ngspain.com
+site-name: ng-spain
+date: Madrid, June 28-30 2018
+
+social: 
+  twitter-handle: '@ngSpain'
+  img-url: 'assets/images/social.jpg'
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Home, url: '#'}
+- {name: Speakers, url: '#speakers'}
+- {name: Schedule, url: '#work'}
+- {name: Organisers, url: '#clients'}
+- {name: Blog, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Angular Conference ng-spain in Madrid.'
+  rel-author: 'https://ngspain.com'
+  rel-publisher: 'https://ngspain.com'
+  twitter: 
+    title: 'Community driven Angular Conference in Spain'
+    description: 'An International Angular Conference created by the community for the community in sunny Spain'
+    image-url: 'assets/images/social-twitter.jpg'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **Travis specializes in making things** for human people.
+  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
+  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
+  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '8'}
+- {name: Programming, value: '6'}
+
+#-------------------------------
+# Speakers Section
+
+speakers:
+- {name: Todd Motto, folder: 'todd-motto', file: 'speakers/todd-motto.html'}
+- {name: Tracy Lee, folder: 'tracy-lee', file: 'speakers/tracy-lee.html'}
+- {name: Carmen Popoviciu, folder: 'carmen-popoviciu', file: 'speakers/carmen-popoviciu.html'}
+- {name: Simona Cotin, folder: 'simona-cotin', file: 'speakers/simona-cotin.html'}
+- {name: Katerina Skroumpelou, folder: 'katerina-skroumpelou', file: 'speakers/katerina-skroumpelou.html'}
+- {name: Todd Motto, folder: 'todd-motto', file: 'speakers/todd-motto.html'}
+- {name: Tracy Lee, folder: 'tracy-lee', file: 'speakers/tracy-lee.html'}
+- {name: Carmen Popoviciu, folder: 'carmen-popoviciu', file: 'speakers/carmen-popoviciu.html'}
+- {name: Simona Cotin, folder: 'simona-cotin', file: 'speakers/simona-cotin.html'}
+- {name: Katerina Skroumpelou, folder: 'katerina-skroumpelou', file: 'speakers/katerina-skroumpelou.html'}
+
+
+
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {avatar: 'face-aaroni.jpg',
+  name: 'Scott Summers',
+  title: 'Director of Design, OnToText Ind.',
+  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+  logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg',
+  name: 'Hank McCoy',
+  title: 'Eater of Salad, Antartica Int.',
+  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
+  logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg',
+  name: 'Stacy Lang',
+  title: 'Social Media Girl, Quebec Int.',
+  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+  logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg',
+  name: 'Cleatus Cassidy',
+  title: 'VP of Helmut, Lorem Sorem LLC.',
+  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'twitter', link: 'http://twitter.com/ngSpain'}
+- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
+- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
+- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
