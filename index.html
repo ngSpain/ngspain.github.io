@@ -1,0 +1,53 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+
+  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+
+  <title>{{ site.data.settings.title }}</title>
+
+    <!-- Social -->
+    <meta property="og:title" content="{{ site.data.settings.site-name }}">
+    <meta property="og:url" content="{{ site.data.settings.seo.rel-author }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.data.settings.site-name }}">
+    <meta property="og:description" content="{{ site.data.settings.seo.description }}">
+    <meta property="og:image" content="{{ site.data.settings.social.image-url }}" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ site.data.settings.social.twitter-handle }}">
+    <meta name="twitter:creator" content="{{ site.data.settings.social.twitter-handle }}">
+    <meta name="twitter:title" content="{{ site.data.settings.seo.twitter.title }}">
+    <meta name="twitter:description" content="{{ site.data.settings.seo.twitter.description }}">
+    <meta name="twitter:image" content="{{ site.data.settings.seo.twitter.image-url }}">
+
+  <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  {% include analytics.html %}
+</head>
+<body>
+
+{% include header.html %}
+
+{% include speakers.html %}
+
+
+{% include contact.html %}
+
+{% include form.html %}
+
+{% include footer.html %}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ site.github.url }}/assets/js/functions.js"></script>
+</body>
+</html>
