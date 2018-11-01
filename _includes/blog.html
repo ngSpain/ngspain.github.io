@@ -1,0 +1,21 @@
+<section class="section-contact">
+    <h3 id="blog"> < Conference news /> </h3>
+    <h2> Latest Blog & News</h2>
+    <div class="blog-container">
+        {% for blog in site.data.settings.blogs %}
+        <div class="date-container">
+            <div class="date">
+                {{ blog.date }}
+            </div>
+        </div>
+        <div class="blog-container">
+            <div class="blog-title">
+                {{ blog.title }}
+            </div>
+            <div class="blog-body">
+                {{ blog.text }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
