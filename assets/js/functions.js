@@ -1,9 +1,6 @@
 $(function() {
 	smoothScroll(300);
 	setDateCountDown();
-
-	$("header .header-body").fitText(1, { minFontSize: '20px', maxFontSize: '50px' });
-	$(".biglink").fitText(1.5);
 });
 
 // smoothScroll function is applied from the document ready function
