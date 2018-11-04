@@ -18,7 +18,10 @@
             <img src="{{ site.github.url }}/assets/img/speakers/{{speaker.folder}}/thumb.jpg" alt="{{ speaker.name }}" />
           </div>
           <div class="thumb-overlay">
-            <strong>{{ speaker.name }}</strong>
+            <div class="speaker-org"> < {{ speaker.org }}/ > </div>
+            <strong>
+              {{ speaker.name }}
+              </strong>
             <div>{{ speaker.description }}</div>
           </div>
         </label>
@@ -37,7 +40,7 @@
         <noscript>
           {% for speaker in site.data.settings.speakers %}
             <div class="noscript" id="content-{{ speaker.folder }}">
-              <h4 class="spaker-title">{{ speaker.name }}</h4>
+              <h4 class="speaker-title">{{ speaker.name }}</h4>
               <div class="noscript-load">
                 {% include {{speaker.file}} %}
               </div>

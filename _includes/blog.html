@@ -1,19 +1,23 @@
-<section class="section-contact">
-    <h3 id="blog"> < Conference news /> </h3>
+<section class="section-blog">
+    <h3 id="blog">
+        < Conference news />
+    </h3>
     <h2> Latest Blog & News</h2>
     <div class="blog-container">
         {% for blog in site.data.settings.blogs %}
-        <div class="date-container">
-            <div class="date">
-                {{ blog.date }}
+        <div class="blog-item">
+            <div class="date-container">
+                <div class="date">
+                    {{ blog.date }}
+                </div>
             </div>
-        </div>
-        <div class="blog-container">
-            <div class="blog-title">
-                {{ blog.title }}
-            </div>
-            <div class="blog-body">
-                {{ blog.text }}
+            <div class="blog-item-container">
+                <div class="blog-item-title">
+                    {{ blog.title }}
+                </div>
+                <div class="blog-item-body">
+                    {{ blog.text }}
+                </div>
             </div>
         </div>
         {% endfor %}

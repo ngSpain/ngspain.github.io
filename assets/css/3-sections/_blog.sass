@@ -1,0 +1,35 @@
+.blog-container
+    display: block
+    margin: 0px 5%
+    +clearfix
+    .blog-item
+        position: relative
+        display: flex
+        float: left
+        width: 50%
+        margin-bottom: 5%
+        @media screen and (max-width: 480px)
+            .date-container
+                padding: 3% !important
+                
+        .date-container
+            display: flex
+            justify-content: center
+            align-items: center
+            width: fit-content
+            height: 30px
+            text-align: center
+            border: 1px solid
+            padding: 1%
+        .blog-item-container
+            padding: 15px 5%
+            .blog-item-title
+                font-family: 'Fira Sans', sans-serif
+                font-size: 30px
+                font-weight: 700
+            .blog-item-body
+                font-family: Lato
+                font-size: 17px
+
+
+        

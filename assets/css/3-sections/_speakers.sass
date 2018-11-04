@@ -61,28 +61,20 @@
 
     .thumb-overlay
       +position(absolute)
-      +align-items(center)
-      +justify-content(space-around)
-      +display(flex)
-      background: fade-out($accent, 0.1)
-      text-align: center
+      background: fade-out($accent, 0.7)
       @extend %animationstart_#{$animation}
-
+      padding: 5% 9%
+      z-index: 2
+      color: white
+      @extend %#{$animation}
       strong
         display: block
-        padding: 0 9%
-        color: white
         font:
-          weight: 300
-          size: 24px
-        text-transform: uppercase
-        line-height: 1.2
+          weight: 700
+          size: 25px
+        line-height: 1
 
-    &:hover
-      z-index: 2
-
-      .thumb-overlay
-        @extend %#{$animation}
+      
 
 
 .work-container
@@ -121,10 +113,12 @@
 
 
 @media (max-width: 740px)
+  .thumb-container
+    margin: 0px
   .work-container
 
     .work-return
       left: 0px
-
+    
     h4
       margin-left: 60px

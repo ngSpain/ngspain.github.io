@@ -1,12 +1,13 @@
-<section class="section-contact">
+<section class="section-countdown">
     <h3 id="countdown">
         < Conference date />
     </h3>
-    <h2 style="margin:0"> Count down </h2>
+    <h2 class="countdown-header" style="margin:0"> Count down </h2>
     <div class="countdown-container">
         {% for option in site.data.settings.countdown %}
         <div class="countdown-item">
             <div class="countdown-number" id="{{option.id}}">
+                -
             </div>
             <div class="countdown-title">
                 {{ option.title }}

@@ -17,9 +17,8 @@ social:
 menu:
 - {name: Home, url: '#'}
 - {name: Speakers, url: '#speakers'}
-- {name: Schedule, url: '#work'}
-- {name: Organisers, url: '#clients'}
-- {name: Blog, url: '#contact'}
+- {name: Blog, url: '#blog'}
+- {name: Contact, url: '#contact'}
 
 #-------------------------------
 # SEO Section
@@ -49,16 +48,11 @@ seo:
 # Speakers Section
 
 speakers:
-- {name: Todd Motto, folder: 'todd-motto', file: 'speakers/todd-motto.html'}
-- {name: Tracy Lee, folder: 'tracy-lee', file: 'speakers/tracy-lee.html'}
-- {name: Carmen Popoviciu, folder: 'carmen-popoviciu', file: 'speakers/carmen-popoviciu.html'}
-- {name: Simona Cotin, folder: 'simona-cotin', file: 'speakers/simona-cotin.html'}
-- {name: Katerina Skroumpelou, folder: 'katerina-skroumpelou', file: 'speakers/katerina-skroumpelou.html'}
-- {name: Todd Motto, folder: 'todd-motto', file: 'speakers/todd-motto.html'}
-- {name: Tracy Lee, folder: 'tracy-lee', file: 'speakers/tracy-lee.html'}
-- {name: Carmen Popoviciu, folder: 'carmen-popoviciu', file: 'speakers/carmen-popoviciu.html'}
-- {name: Simona Cotin, folder: 'simona-cotin', file: 'speakers/simona-cotin.html'}
-- {name: Katerina Skroumpelou, folder: 'katerina-skroumpelou', file: 'speakers/katerina-skroumpelou.html'}
+- {name: Todd Motto, folder: 'todd-motto', file: 'speakers/todd-motto.html', org: 'Ultimate Angular'}
+- {name: Tracy Lee, folder: 'tracy-lee', file: 'speakers/tracy-lee.html', org: 'This Dot'}
+- {name: Carmen Popoviciu, folder: 'carmen-popoviciu', file: 'speakers/carmen-popoviciu.html', org: 'ING'}
+- {name: Simona Cotin, folder: 'simona-cotin', file: 'speakers/simona-cotin.html', org: 'Microsoft'}
+- {name: Katerina Skroumpelou, folder: 'katerina-skroumpelou', file: 'speakers/katerina-skroumpelou.html', org: 'This Dot'}
 
 #-------------------------------
 # Blog Section
@@ -73,6 +67,7 @@ blogs:
 countdown:
   - { id: 'months', title: 'Months'}
   - { id: 'days', title: 'Days'}
+  - { id: 'hours', title: 'Hours'}
   - { id: 'minutes', title: 'Minutes'}
   - { id: 'seconds', title: 'Seconds'}
 

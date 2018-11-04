@@ -38,24 +38,30 @@ header
       color: white
       .date
         font:
+          family: Courier
           size: 18px
       .header-title
         font:
           size: 65px
-          weight: 700
         color: white
         margin-bottom: 20px
         clear: both
+        font-family: 'Fira Sans', sans-serif
 
       .kicker
         @extend %small-bold
         width: 90%
         line-height: 1.8
+        font-family: Lato
 
 @media (max-width: 640px)
   header
     background:
       position: 50% 20px, 50% 50%
+    .header-container
+      width: 90%
+      .header-body
+        width: 100%
 
     nav
       float: none
@@ -64,3 +70,5 @@ header
 
     h1
       padding-top: 0px
+    
+
