@@ -68,6 +68,15 @@ section {
     width: 200px;
 }
 
+.location-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.location-link:hover {
+    color: #FD2D00;
+}
+
 @media screen and (max-device-width : 1024px)
 {
     .logo-container > .logo {
