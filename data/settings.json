@@ -7,14 +7,14 @@
   "startDate": "2019-10-018T09:00:00+03:00",
   "endDate": "2019-10-20T19:00:00+03:00",
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "NgSpain",
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest17",
+  "hashtag": "ngSpain",
   "disabledSchedule": false,
   "showSessionShortAbstract": true,
   "navigation": [
@@ -100,13 +100,13 @@
     "short": "Madrid, Spain",
     "address": "Calle Moreno Nieto, 2, 28005 Madrid, Spain",
     "pointer": {
-      "latitude": 40.412050,
-      "longitude": -3.719480,
-      "zoom": 5
+      "latitude": 40.4122244,
+      "longitude": -3.71973,
+      "zoom": 17
     },
     "mapCenter": {
-      "latitude": 40,
-      "longitude": 3
+      "latitude": 40.4122244,
+      "longitude": -3.71973
     },
     "description": "Campus is a community of entrepreneurs, a global network of spaces where big ideas are shaping the future."
   },
