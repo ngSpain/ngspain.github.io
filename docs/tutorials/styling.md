@@ -63,7 +63,7 @@ in `heroSettings` object:
 Edit Web app colors via `webapp` in `data/settings.json`
 ```json
 "webapp": {
-  "shortName": "DevFest",
+  "shortName": "NgSpain",
   "themeColor": "#F57C00",
   "backgroundColor": "#F57C00"
 }

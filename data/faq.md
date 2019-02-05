@@ -2,25 +2,25 @@
 
 ### Dates and location
 
-GDG DevFest Ukraine will take place on the 12-13th of October in [Planeta Kino (King Cross),]( https://goo.gl/Zwi76g) Lviv.
+NgSpain will take place on the 18-20th of October in [Campus Madrid,]( https://goo.gl/maps/g7mFbi9cgUm) Madrid.
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [DevFest website](https://devfest.gdg.org.ua/), RSVP on [Meetup]( https://www.meetup.com/GDG-Lviv/events/244342635/) and follow us on [Facebook](https://www.facebook.com/devfest.ukraine/) and [Twitter](https://twitter.com/devfest_ukraine). You can also follow and join the social conversation about GDG DevFest Ukraine via official hashtags #dfua and #Devfest18. In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
+To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [NgSpain website](https://www.ngspain.com/) and follow us on [Facebook](https://www.facebook.com/AngularSpain/) and [Twitter](https://twitter.com/ngspain). You can also follow and join the social conversation about NgSpain via official hashtags #ngSpain and #ngSpain19. In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
 
 ### Content Formats
 
 During two conference days attendees will be able to attend sessions and hands-on workshops, chat with experts and attendees at coffee breaks and after party, and more.
 
-### Livestream & Recordings
+<!-- ### Livestream & Recordings
 
-If you’re unable to attend DevFest in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on GDG Lviv [youtube channel](https://www.youtube.com/channel/UC5nknQj-2llSNd-jqXr4d_w) few weeks after the conference. Workshops won’t be recorded. Also, there could be a livestream provided by participants which you can find via #dfua and #Devfest18 hashtags.
+If you’re unable to attend NgSpain in-person, you can still be part of the magic. All the lectures from the sessions will be available for free on NgpSain [youtube channel](https://www.youtube.com/channel/UC5nknQj-2llSNd-jqXr4d_w) few weeks after the conference. Workshops won’t be recorded. Also, there could be a livestream provided by participants which you can find via #ngSpain and #ngSpain19 hashtags. -->
 
   
-## Registration
+<!-- ## Registration -->
 
 
-### Drawing Dates
+<!-- ### Drawing Dates
 
 The window to buy a ticket will be opened until 6PM GMT+2 on October 11th 2018, or earlier if the tickets are sold out. If the ticket was bought after September 30th registered participants won’t get printed badge (their names will be written on the badge by marker). To buy a ticket [follow the link]( https://2event.com/events/1027108), select required ticket type, fill in the required information and pay for it.
 
@@ -113,19 +113,19 @@ To expedite the check-in process, we’ll begin badge pick-up on Thursday, Octob
 
 Everyone is guaranteed a seat for the keynotes but the best seats will be assigned on a first-come, first-served basis during badge pick-up beginning at 9AM on October 12th. So make sure to come in on time!
 
-Please note, you may not share, give, or otherwise provide your badge to anyone. GDG DevFest Ukraine badges aren’t replaceable, so don't lose yours or you won’t be readmitted to the conference. You must wear your GDG DevFest Ukraine badge to gain admission to the conference, including the sessions, workshops, and afterparty. If requested by security, please display or provide additional identification. GDG DevFest Ukraine badges may include your name, company or work title (if provided).
+Please note, you may not share, give, or otherwise provide your badge to anyone. GDG DevFest Ukraine badges aren’t replaceable, so don't lose yours or you won’t be readmitted to the conference. You must wear your GDG DevFest Ukraine badge to gain admission to the conference, including the sessions, workshops, and afterparty. If requested by security, please display or provide additional identification. GDG DevFest Ukraine badges may include your name, company or work title (if provided). -->
 
   
 
 ### Afterparty
 
-All registered attendees are invited to the afterparty on the evenings of October 12th. The conference badges will be required for entry. Please join us for food, drinks, music, games, and more. Alcoholic beverages will be available for those 18 and over.
+All registered attendees are invited to the afterparty on the evenings of October 19th. The conference badges will be required for entry. Please join us for food, drinks, music, games, and more. Alcoholic beverages will be available for those 18 and over.
 
   
 
 ### Event Attire
 
-GDG DevFest is a developer event, so please be comfortable and casual. There is no enforced dress code.
+NgSpain is a developer event, so please be comfortable and casual. There is no enforced dress code.
 
 
 ### Smoking
@@ -134,4 +134,4 @@ Smoking is only permitted in designated outdoor smoking areas.
 
 ### No Soliciting
 
-No solicitation or selling of items or services is allowed at GDG DevFest Ukraine. Any attendee conducting these activities may be removed from the conference.
+No solicitation or selling of items or services is allowed at NgSpain. Any attendee conducting these activities may be removed from the conference.

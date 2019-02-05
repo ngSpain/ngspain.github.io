@@ -1,5 +1,5 @@
 {
-  "title": "Spain's Angular Conference",
+  "title": "ngSpain",
   "description": "THE Angular conference in Spain which is 100% community driven. Our goal is to have top quality content available for all, and with the help of the community, it is possible.",
   "image": "images/social-share.jpg",
   "keywords": "event, ng, angular, madrid, google, programming, spain, polymer, developers, web, cloud, androiddev",
@@ -92,11 +92,6 @@
         "description": "NgSpain brings together the world class experts in Angular to Madrid for 2 days of sessions, workshops and showcases.",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
-      },
-      "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
-        "youtubeId": "TdpbgRgz6eE"
       }
     },
     "statisticsBlock": {
