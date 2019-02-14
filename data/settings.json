@@ -38,6 +38,11 @@
       "route": "blog",
       "permalink": "/blog/",
       "label": "Blog"
+    },
+    {
+      "route": "Call for Sponsors",
+      "permalink": "https://docs.google.com/forms/d/e/1FAIpQLSeBX6XH4RTsu8tn7oDNcHdhFggdjna0ov-8vLIiqzAxhX6UrQ/viewform?embedded=true",
+      "label": "Call for Sponsors"
     }
   ],
   "heroSettings": {
@@ -59,8 +64,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "metaDescription": "Take a look at ngSpain's international speakers!",
+      "description": "Take a look at our first speakers but stay tuned because there will be more!",
       "background": {
         "color": "#FFF"
       },
