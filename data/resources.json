@@ -181,7 +181,7 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
+      "description": "Get notified about ngSpain's updates",
       "label": "Subscribe"
     },
     "yourEmail": "Your email",
@@ -197,7 +197,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Angular is used by....."
+    "description": "Behind ngSpain there is an amazing team built up of community members, who spend their free time to make this dream come true!"
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -229,19 +229,19 @@
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='https://www.ngspain.com' target='_blank'>NgSpain</a> with support of 10 Anguleers from all around the world is proud organizer of NgSpain",
+        "title": "Organisers",
+        "description": "<a href='https://www.ngspain.com' target='_blank'>NgSpain</a> is organised by 9 community members from Spain and Denmark!",
         "callToAction": {
-          "label": "Open team page",
+          "label": "Meet us!",
           "link": "/team"
         }
       },
       {
         "title": "What is NgSpain?",
-        "description": "What is NgSpain?",
+        "description": "ngSpain started by a group of Angular community memebers deciding it was time to put our interests together and make something special and affordable happen in Spain...",
         "callToAction": {
           "label": "Read more",
-          "link": "https://developers.google.com/groups/",
+          "link": "/blog/about",
           "newTab": true
         }
       }
