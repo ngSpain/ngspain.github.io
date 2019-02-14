@@ -33,6 +33,12 @@
       "permalink": "/team/",
       "label": "Team"
     }
+    ,
+    {
+      "route": "blog",
+      "permalink": "/blog/",
+      "label": "Blog"
+    }
   ],
   "heroSettings": {
     "home": {
