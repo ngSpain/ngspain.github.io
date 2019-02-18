@@ -133,15 +133,7 @@
       }
 
       _addPotentialPartner() {
-        dialogsActions.openDialog(DIALOGS.SUBSCRIBE, {
-          title: '{$ partnersBlock.form.title $}',
-          submitLabel: '{$ partnersBlock.form.submitLabel $}',
-          firstFieldLabel: '{$ partnersBlock.form.fullName $}',
-          secondFieldLabel: '{$ partnersBlock.form.companyName $}',
-          submit: (data) => {
-            this.dispatch(partnersActions.addPartner(data));
-          },
-        });
+        window.open('{$ partnersBlock.permalink $}','_blank');
       }
 
       _partnerAddingChanged(newPartnerAdding, oldPartnerAdding) {
