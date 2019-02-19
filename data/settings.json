@@ -1,13 +1,13 @@
 {
   "organizer": {
-    "name": "NgSpain",
+    "name": "ngSpain",
     "twitter": "ngSpaib",
     "url": "https://www.ngspain.com/"
   },
   "startDate": "2019-10-018T09:00:00+03:00",
   "endDate": "2019-10-20T19:00:00+03:00",
   "webapp": {
-    "shortName": "NgSpain",
+    "shortName": "ngSpain",
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },

@@ -36,7 +36,7 @@
       "title": "About",
       "links": [
         {
-          "name": "NgSpain",
+          "name": "ngSpain",
           "url": "/blog/posts/about-ngspain/",
           "newTab": true
         },
@@ -164,7 +164,7 @@
     "emailAddress": "Email Address",
     "firstName": "First Name",
     "lastName": "Last Name",
-    "formTitle": "Get the latest updates, insights and news about NgSpain sent to your inbox.",
+    "formTitle": "Get the latest updates, insights and news about ngSpain sent to your inbox.",
     "emailRequired": "Please enter a valid email address.",
     "subscribe": "Subscribe",
     "subscribed": "Subscribed",
@@ -206,14 +206,14 @@
     "blocks": [
       {
         "title": "Organisers",
-        "description": "<a href='https://www.ngspain.com' target='_blank'>NgSpain</a> is organised by 9 community members from Spain and Denmark!",
+        "description": "<a href='https://www.ngspain.com' target='_blank'>ngSpain</a> is organised by 9 community members from Spain and Denmark!",
         "callToAction": {
           "label": "Meet us!",
           "link": "/team"
         }
       },
       {
-        "title": "What is NgSpain?",
+        "title": "What is ngSpain?",
         "description": "ngSpain started by a group of Angular community memebers deciding it was time to put our interests together and make something special and affordable happen in Spain...",
         "callToAction": {
           "label": "Read more",
