@@ -64,7 +64,7 @@
     "title": "About ngSpain",
     "callToAction": {
       "featuredSessions": {
-        "description": "ngSpain is a non-profit community driven conference focused on Angular. When we say community driven we mean that the conference organisers are from the Angular community and we want to be able to offer a community friendly event in Spain for everyone who wishes to attend.",
+        "description": "ngSpain is a non-profit, community-driven Angular conference. All organisers of ngSpain are active members of the Angular community. Our goal is to create a welcoming event that is open for everyone who wishes to attend.",
         "label": "Meet the team",
         "link": "/team"
       }
@@ -131,7 +131,7 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "Rockstar speakers",
+    "title": "Top-class speakers",
     "callToAction": {
       "label": "View all speakers",
       "link": "/speakers/"
@@ -173,7 +173,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Behind ngSpain there is an amazing team built up of community members, who spend their free time to make this dream come true!"
+    "description": "Our team is made up of active members of the Angular community who spend their free time to make this dream come true!"
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -206,7 +206,7 @@
     "blocks": [
       {
         "title": "Organisers",
-        "description": "<a href='https://www.ngspain.com' target='_blank'>ngSpain</a> is organised by 9 community members from Spain and Denmark!",
+        "description": "<a href='https://www.ngspain.com' target='_blank'>ngSpain</a> is organised by 9 volunteers from Spain and Denmark.",
         "callToAction": {
           "label": "Meet us!",
           "link": "/team"
@@ -214,7 +214,7 @@
       },
       {
         "title": "What is ngSpain?",
-        "description": "ngSpain started by a group of Angular community memebers deciding it was time to put our interests together and make something special and affordable happen in Spain...",
+        "description": "ngSpain was started by a group of Angular community members who decided it was time to join forces and make a special and affordable Angular conference happen in Spain.",
         "callToAction": {
           "label": "Read more",
           "link": "/blog/about",

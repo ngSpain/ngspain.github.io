@@ -6,7 +6,7 @@ ngSpain will take place on the 18-20th of October in [Campus Madrid,]( https://g
 
 ### Stay Informed
 
-To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [ngSpain website](https://www.ngspain.com/) and follow us on [Facebook](https://www.facebook.com/AngularSpain/) and [Twitter](https://twitter.com/ngspain). You can also follow and join the social conversation about ngSpain via official hashtags #ngSpain and #ngSpain19. In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
+To stay up to date on the latest information on sessions, speakers, and activities, be sure to visit the [ngSpain website](https://www.ngspain.com/) and follow us on [Facebook](https://www.facebook.com/AngularSpain/) and [Twitter](https://twitter.com/ngspain). You can also follow and join the social conversation about ngSpain via the official hashtags #ngSpain and #ngSpain19. In addition, we'll be emailing important information to all registered attendees, along with check-in instructions prior to the conference.
 
 ### Content Formats
 
@@ -14,7 +14,7 @@ During two conference days attendees will be able to attend sessions and hands-o
 
 ### Afterparty
 
-All registered attendees are invited to the afterparty on the evenings of October 19th. The conference badges will be required for entry. Please join us for food, drinks, music, games, and more. Alcoholic beverages will be available for those 18 and over.
+All registered attendees are invited to the afterparty on the evening of  October 19th. The conference badges will be required for entry. Please join us for food, drinks, music, games, and more. Alcoholic beverages will be available for those 18 and over.
 
 
 ### Event Attire
