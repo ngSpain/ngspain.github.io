@@ -26,7 +26,7 @@ The top block (aka 'hero') view of the page can be adjusted via `heroSettings` i
   "home": {
     "description": "THE Angular conference in Spain which is 100% community driven.",
     "background": {
-      "color": "#673ab7",
+      "color": "#030232",
       "image": "/images/backgrounds/home.jpg"
     },
     "fontColor": "#FFF"

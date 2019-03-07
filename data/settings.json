@@ -8,8 +8,8 @@
   "endDate": "2019-10-20T19:00:00+03:00",
   "webapp": {
     "shortName": "ngSpain",
-    "themeColor": "#673AB7",
-    "backgroundColor": "#673AB7"
+    "themeColor": "#030232",
+    "backgroundColor": "#030232"
   },
   "dateFormat": {
     "locale": "en-US"
@@ -54,7 +54,7 @@
     "home": {
       "description": "Angular Community Conference",
       "background": {
-        "color": "#673ab7",
+        "color": "#030232",
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
