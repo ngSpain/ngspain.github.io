@@ -20,12 +20,19 @@
   <meta name="theme-color" content="{$ webapp.themeColor $}">
   <link rel="manifest" href="manifest.json">
 
-   <!-- Google Tag Manager -->
- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5FW2LTG');</script>
+  <!-- Google Tag Manager -->
+  <script>
+    /*eslint-disable */
+    (function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5FW2LTG');
+    /*eslint-disable */
+  </script>
   <!-- End Google Tag Manager -->
 
   <!-- Add to homescreen for Chrome on Android -->
@@ -182,27 +189,27 @@
 
 <body>
 
-<!--<hoverboard-app unresolved>{$ title $}</hoverboard-app>-->
+  <!--<hoverboard-app unresolved>{$ title $}</hoverboard-app>-->
 
-<noscript>
-  Please enable JavaScript to view this website.
-</noscript>
+  <noscript>
+    Please enable JavaScript to view this website.
+  </noscript>
 
-<script>
-  window.performance && performance.mark && performance.mark('index.html');
+  <script>
+    window.performance && performance.mark && performance.mark('index.html');
 
-  window.onload = function () {
-    const indexRenderTime = window.measureDuration && window.measureDuration('index.html');
-    if (indexRenderTime) {
-      ga('send', 'timing', 'index.html', 'render', indexRenderTime);
-    }
-  };
+    window.onload = function () {
+      const indexRenderTime = window.measureDuration && window.measureDuration('index.html');
+      if (indexRenderTime) {
+        ga('send', 'timing', 'index.html', 'render', indexRenderTime);
+      }
+    };
 
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    uiActions.setAddToHomeScreen(e);
-  });
-</script>
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      uiActions.setAddToHomeScreen(e);
+    });
+  </script>
 
 </body>
 
