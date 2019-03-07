@@ -116,15 +116,15 @@
     "short": "Madrid, Spain",
     "address": "Calle Moreno Nieto, 2, 28005 Madrid, Spain",
     "pointer": {
-      "latitude": 40.4122244,
-      "longitude": -3.71973,
+      "latitude": 40.4124114,
+      "longitude": -3.718253,
       "zoom": 17
     },
     "mapCenter": {
-      "latitude": 40.4122244,
-      "longitude": -3.71973
+      "latitude": 40.4124114,
+      "longitude": -3.718253
     },
-    "description": "Campus is a community of entrepreneurs, a global network of spaces where big ideas are shaping the future."
+    "description": "Google Campus is a community of entrepreneurs, a global network of spaces where big ideas are shaping the future."
   },
   "mediaQueries": {
     "xs": {
