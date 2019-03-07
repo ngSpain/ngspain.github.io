@@ -1,0 +1,115 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+
+
+<dom-module id="footer-nav">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+
+    <style>
+
+      :host {
+        margin: 0 20px;
+      }
+
+      .copyright {
+        padding: 15px 0 0;
+        float: left;
+      }
+
+      .cod {
+        display: block;
+      }
+
+      .nav-inline {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+
+      .footer-logo {
+        margin: 10px 30px 0 0;
+        height: 44px;
+        width: 120px;
+        float: left;
+      }
+
+      .footer-logo-container {
+        flex: 1;
+      }
+
+      a {
+        color: var(--footer-text-color);
+        padding-bottom: 2px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (min-width: 768px) {
+        :host {
+          margin: 15px 0;
+        }
+      }
+
+      @media (min-width: 505px) {
+
+        .copyright {
+          margin: 0;
+          padding: 15px 0 0 0;
+          float: right;
+          text-align: right;
+        }
+
+        .cod {
+          display: inline-flex;
+        }
+      }
+    </style>
+
+    <div class="nav-inline" layout flex>
+
+      <a class="footer-logo-container" href="{$ organizer.url $}" target="_blank" rel="noopener noreferrer">
+        <plastic-image
+          class="footer-logo"
+          srcset="../../images/logo.svg"
+          sizing="contain"
+          alt="{$ organizer.name $}"
+          lazy-load
+        ></plastic-image>
+      </a>
+
+      <div class="copyright">
+        &copy; [[_getYear()]] ngSpain
+        <br>
+        <small>
+          The website is based on 
+          <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">
+            Project Hoverboard
+          </a>
+        </small>
+      </div>
+    </div>
+  </template>
+
+  <script>
+
+    class FooterNav extends Polymer.Element {
+      static get is() {
+        return 'footer-nav';
+      }
+
+      _getYear() {
+        return new Date().getFullYear();
+      }
+    }
+
+    window.customElements.define(FooterNav.is, FooterNav);
+
+  </script>
+</dom-module>
+

@@ -1,0 +1,15 @@
+{
+  "basepath": "/",
+  "url": "https://ngspain-81a39.firebaseapp.com/",
+  "analytics": "UA-126030093-1",
+  "prefix": "/",
+  "firebase": {
+    "apiKey": "AIzaSyDaiNkXU2TB7RWfmGYv4CeSB72UpYwPGK8",
+    "authDomain": "ngspain-81a39.firebaseapp.com",
+    "databaseURL": "https://ngspain-81a39.firebaseio.com",
+    "projectId": "ngspain-81a39",
+    "storageBucket": "ngspain-81a39.appspot.com",
+    "messagingSenderId": "900206999733"
+  },
+  "googleMapApiKey": "AIzaSyARZ6GKM1phmVebq4nWZs_w5QopNVL_abI"
+}

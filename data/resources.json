@@ -1,0 +1,249 @@
+{
+  "title": "ngSpain",
+  "description": "THE Angular conference in Spain which is 100% community driven. Our goal is to have top quality content available for all, and with the help of the community, it is possible.",
+  "image": "images/social-share.jpg",
+  "keywords": "event, ng, angular, madrid, google, programming, spain, polymer, developers, web, cloud, androiddev",
+  "dates": "October 18-20, 2019",
+  "partnershipProposition": "https://bit.ly/dfua17-partners",
+  "share": "Share",
+  "followOur": "Follow our",
+  "followUs": "Follow us",
+  "emailUs": "Email us",
+  "partnershipResources": "Partnership Resources",
+  "eventResources": "Event Resources",
+  "buyTicket": "Buy ticket",
+  "signIn": "Sign in",
+  "signOut": "Sign out",
+  "viewHighlights": "View Highlights",
+  "offlineMessage": "You can still work offline.",
+  "cachingComplete": "Caching complete! Future visits will work offline.",
+  "newVersionAvailable": "A new version of this app is available.",
+  "refresh": "Refresh",
+  "position": "Position",
+  "country": "Country",
+  "time": "Time",
+  "faq": "/data/faq.md",
+  "cod": "/data/cod.md",
+  "footer": {
+    "blog": "Blog"
+  },
+  "mySchedule": {
+    "title": "My Schedule",
+    "browseSession": "Browse sessions"
+  },
+  "footerRelBlock": [
+    {
+      "title": "About",
+      "links": [
+        {
+          "name": "ngSpain",
+          "url": "/blog/posts/about-ngspain/",
+          "newTab": true
+        },
+        {
+          "name": "Meet the Team",
+          "url": "https://www.ngspain.com/team/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Event Resources",
+      "links": [
+        {
+          "name": "FAQs",
+          "url": "/faq/",
+          "newTab": false
+        },
+        {
+          "name": "Code of Conduct",
+          "url": "/cod/",
+          "newTab": false
+        }
+      ]
+    }
+  ],
+  "subscribeNote": "No spam, only the latest news and updates!",
+  "codeOfConduct": "Code of Conduct",
+  "aboutBlock": {
+    "title": "About ngSpain",
+    "callToAction": {
+      "featuredSessions": {
+        "description": "ngSpain is a non-profit, community-driven Angular conference. All organisers of ngSpain are active members of the Angular community. Our goal is to create a welcoming event that is open for everyone who wishes to attend.",
+        "label": "Meet the team",
+        "link": "/team"
+      }
+    },
+    "statisticsBlock": {
+      "attendees": {
+        "label": "Attendees",
+        "number": "200"
+      },
+      "days": {
+        "label": "Days",
+        "number": "2"
+      },
+      "sessions": {
+        "label": "Sessions",
+        "number": "16"
+      },
+      "tracks": {
+        "label": "Track",
+        "number": "1"
+      }
+    }
+  },
+  "ticketsBlock": {
+    "title": "Tickets",
+    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "soldOut": "You missed it!",
+    "notAvailableYet": "Not available yet",
+    "save": "Save ${discount}% today"
+  },
+  "partnersBlock": {
+    "title": "Partners",
+    "button": "Become a partner",
+    "permalink": "https://docs.google.com/forms/d/e/1FAIpQLSeBX6XH4RTsu8tn7oDNcHdhFggdjna0ov-8vLIiqzAxhX6UrQ/viewform?usp=sf_link",
+    "form": {
+      "title": "Become a partner!",
+      "submitLabel": "Submit",
+      "fullName": "Full Name",
+      "companyName": "Company Name"
+    },
+    "toast": "We will contact you soon!"
+  },
+  "featuredVideos": {
+    "title": "DFUA'16 featured videos",
+    "callToAction": {
+      "label": "See all videos",
+      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+    }
+  },
+  "blog": {
+    "published": "Published",
+    "suggested": "Up next"
+  },
+  "latestPostsBlock": {
+    "title": "The latest news",
+    "callToAction": {
+      "label": "View all stories",
+      "link": "/blog/"
+    }
+  },
+  "speakers": {
+    "skills": "Skills",
+    "previousYears": "Years",
+    "previousYear": "Year"
+  },
+  "speakersBlock": {
+    "title": "Top-class speakers",
+    "callToAction": {
+      "label": "View all speakers",
+      "link": "/speakers/"
+    }
+  },
+  "previousSpeakersBlock": {
+    "title": "Previous speakers",
+    "callToAction": {
+      "label": "View all",
+      "link": "/previous-speakers/"
+    }
+  },
+  "galleryBlock": {
+    "title": "#dfua16 highlights",
+    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "callToAction": {
+      "label": "See all photos",
+      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+    }
+  },
+  "mapBlock": {
+    "title": "Location"
+  },
+  "subscribeBlock": {
+    "callToAction": {
+      "description": "Get notified about ngSpain's updates",
+      "label": "Subscribe"
+    },
+    "yourEmail": "Your email",
+    "emailAddress": "Email Address",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "formTitle": "Get the latest updates, insights and news about ngSpain sent to your inbox.",
+    "emailRequired": "Please enter a valid email address.",
+    "subscribe": "Subscribe",
+    "subscribed": "Subscribed",
+    "close": "Close",
+    "generalError": "Some error has occured. Please, try again later.",
+    "toast": "Successfully subscribed!"
+  },
+  "team": {
+    "description": "Our team is made up of active members of the Angular community who spend their free time to make this dream come true!"
+  },
+  "schedule": {
+    "saveSessionsSignedOut": "Sign in to save sessions"
+  },
+  "sessionDetails": {
+    "contentLevel": "Content level",
+    "viewPresentation": "View presentation",
+    "viewVideo": "View video",
+    "speakers": "Speakers"
+  },
+  "speakerDetails": {
+    "sessions": "Sessions"
+  },
+  "notifications": {
+    "default": "Enable notifications",
+    "enabled": "We will miss you but you can unsubscribe anytime",
+    "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "enable": {
+      "label": "Enable",
+      "link": "https://pushassist.com/knowledgebase/how-to-enable-or-disable-push-notifications-on-chrome-firefox-safari-b/"
+    },
+    "toast": {
+      "title": "Open"
+    }
+  },
+  "aboutOrganizerBlock": {
+    "image": "/images/team.jpg",
+    "blocks": [
+      {
+        "title": "Organisers",
+        "description": "<a href='https://www.ngspain.com' target='_blank'>ngSpain</a> is organised by 9 volunteers from Spain and Denmark.",
+        "callToAction": {
+          "label": "Meet us!",
+          "link": "/team"
+        }
+      },
+      {
+        "title": "What is ngSpain?",
+        "description": "ngSpain was started by a group of Angular community members who decided it was time to join forces and make a special and affordable Angular conference happen in Spain.",
+        "callToAction": {
+          "label": "Read more",
+          "link": "/blog/about",
+          "newTab": true
+        }
+      }
+    ]
+  },
+  "signInDialog": {
+    "alreadyHaveAccount": "You already have an account",
+    "alreadyUsed": "You've already used",
+    "signInToContinue": {
+      "part1": "Sign in with",
+      "part2": "to continue."
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "results": "Results",
+    "tags": "Tags",
+    "complexity": "Complexity",
+    "clear": "Clear all"
+  },
+  "addToHomeScreen": {
+    "cta": "Add to Home Screen"
+  }
+}
