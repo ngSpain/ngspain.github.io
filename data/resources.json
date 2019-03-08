@@ -222,8 +222,8 @@
         "description": "ngSpain was started by a group of Angular community members who decided it was time to join forces and make a special and affordable Angular conference happen in Spain.",
         "callToAction": {
           "label": "Read more",
-          "link": "/blog/about",
-          "newTab": true
+          "link": "/blog/posts/about-ngspain/",
+          "newTab": false
         }
       }
     ]
