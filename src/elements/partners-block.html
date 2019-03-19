@@ -28,6 +28,10 @@
         grid-gap: 8px;
       }
 
+      .logos-wrapper.platinium {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+
       .logo-item {
         padding: 24px;
       }
@@ -46,11 +50,18 @@
         .logos-wrapper {
           grid-template-columns: repeat(4, 1fr);
         }
+        .logos-wrapper.platinium {
+          grid-template-columns: repeat(2, 1fr);
+        }
       }
 
       @media (min-width: 812px) {
         .logos-wrapper {
           grid-template-columns: repeat(5, 1fr);
+        }
+
+        .logos-wrapper.platinium {
+          grid-template-columns: repeat(3, 1fr);
         }
       }
 
@@ -61,7 +72,7 @@
 
       <template is="dom-repeat" items="[[partners]]" as="block">
           <h4 class="block-title">[[block.title]]</h4>
-          <div class="logos-wrapper">
+          <div class$="logos-wrapper [[block.type]]" >
             <template is="dom-repeat" items="[[block.items]]" as="logo">
               <a
                 class="logo-item card"
