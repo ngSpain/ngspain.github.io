@@ -2,7 +2,7 @@
 
 ### Dates and location
 
-ngSpain will take place on the 18-20th of October in [Campus Madrid,]( https://goo.gl/maps/g7mFbi9cgUm) Madrid.
+ngSpain will take place on the 19-20th of October in [Campus Madrid,]( https://goo.gl/maps/g7mFbi9cgUm) Madrid.
 
 ### Stay Informed
 
