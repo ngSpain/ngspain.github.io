@@ -24,6 +24,11 @@
       "label": "Home"
     },
     {
+      "route": "schedule",
+      "permalink": "/schedule/2019-10-18",
+      "label": "Workshops"
+    },
+    {
       "route": "speakers",
       "permalink": "/speakers/",
       "label": "Speakers"
@@ -48,11 +53,6 @@
       "route": "Call for Sponsors",
       "permalink": "https://docs.google.com/forms/d/e/1FAIpQLSeBX6XH4RTsu8tn7oDNcHdhFggdjna0ov-8vLIiqzAxhX6UrQ/viewform?usp=sf_link",
       "label": "Call for Sponsors"
-    },
-    {
-      "route": "Call for Papers",
-      "permalink": "https://forms.gle/87xT2jwdQgCKtTcZA",
-      "label": "Call for Papers"
     }
   ],
   "heroSettings": {
@@ -84,6 +84,14 @@
     "schedule": {
       "title": "Schedule",
       "metaDescription": "Choose your sessions to visit",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "partners": {
+      "title": "Sponsors",
+      "metaDescription": "Become a partner",
       "background": {
         "color": "#fff"
       },

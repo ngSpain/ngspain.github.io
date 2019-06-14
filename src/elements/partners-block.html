@@ -28,6 +28,10 @@
         grid-gap: 8px;
       }
 
+      .logos-wrapper.silver {
+        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+      }
+
       .logos-wrapper.platinium {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       }
@@ -45,6 +49,10 @@
         height: 100px;
       }
 
+      .logos-wrapper.silver .logo-img {
+        height: 80px;
+      }
+
       .cta-button {
         margin-top: 24px;
         color: var(--default-primary-color);
@@ -53,6 +61,9 @@
       @media (min-width: 640px) {
         .logos-wrapper {
           grid-template-columns: repeat(4, 1fr);
+        }
+        .logos-wrapper.silver {
+          grid-template-columns: repeat(3, 1fr);
         }
         .logos-wrapper.platinium {
           grid-template-columns: repeat(2, 1fr);
@@ -63,7 +74,9 @@
         .logos-wrapper {
           grid-template-columns: repeat(5, 1fr);
         }
-
+        .logos-wrapper.silver {
+          grid-template-columns: repeat(4, 1fr);
+        }
         .logos-wrapper.platinium {
           grid-template-columns: repeat(3, 1fr);
         }

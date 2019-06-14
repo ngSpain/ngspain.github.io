@@ -1,0 +1,73 @@
+<link rel="import" href="../elements/partners-block.html">
+
+<dom-module id="partners-page">
+  <template>
+    <style is="custom-style" include="shared-styles flex flex-alignment"></style>
+    <style>
+      :host {
+        display: block;
+        height: 100%;
+      }
+
+      .no-padding-bottom {
+          padding-bottom: 0px;
+      }
+
+      .no-margin-bottom {
+          margin-bottom: 0px;
+      }
+
+      paper-progress {
+        width: 100%;
+        --paper-progress-active-color: var(--default-primary-color);
+        --paper-progress-secondary-color: var(--default-primary-color);
+      }
+
+      @media (max-width: 640px) {
+        .container {
+          padding: 0 0 32px;
+        }
+      }
+
+      @media (min-width: 640px) {
+        :host {
+          background-color: #fff;
+        }
+      }
+
+      paper-button {
+          width: 100%;
+          font-size: 28px;
+      }
+    </style>
+    <polymer-helmet
+    title="{$ heroSettings.partners.title $} | {$ title $}"
+    description="{$ heroSettings.partners.metaDescription $}"
+    active="[[active]]"
+  ></polymer-helmet>
+    <div class="container no-padding-bottom" >
+        <div class="container-title no-margin-bottom">
+            <paper-button class="cta-button animated icon-right" on-tap="_onBecomeAPartner">
+                <span>{$ partnersBlock.longerButton $}</span>
+                <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+            </paper-button>
+        </div>
+    </div>
+
+    <partners-block></partners-block>
+  </template>
+  <script>
+    // eslint-disable-next-line no-undef
+    class PartnersPage extends ScrollFunctions(ReduxMixin(Polymer.Element)) {
+      static get is() {
+        return 'partners-page';
+      }
+
+      _onBecomeAPartner() {
+        window.open('{$ partnersBlock.permalink $}', '_blank');
+      }
+    }
+
+    window.customElements.define(PartnersPage.is, PartnersPage);
+  </script>
+</dom-module>
