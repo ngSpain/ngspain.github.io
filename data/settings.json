@@ -25,6 +25,11 @@
     },
     {
       "route": "schedule",
+      "permalink": "/schedule/2019-10-19",
+      "label": "Schedule"
+    },
+    {
+      "route": "schedule",
       "permalink": "/schedule/2019-10-18",
       "label": "Workshops"
     },
