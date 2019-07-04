@@ -60,6 +60,11 @@
       "label": "Call for Sponsors"
     },
     {
+      "route": "Scholarship",
+      "permalink": "https://drive.google.com/open?id=1T3262uJvoy62yUctPFdkZC-R8hhjFO09jeg6HSY5KqQ",
+      "label": "scholarship"
+    },
+    {
       "route": "ngGirls",
       "permalink": "http://ng-girls.org/ngspain-2019/",
       "label": "ng-girls"
